@@ -2,13 +2,17 @@
   "name": "jest_testing_basics",
   "version": "1.0.0",
   "description": "Basic jest test case project",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "rajkumar patoliya",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.18.0",
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "jshint": "^2.9.6"
   }
 }
