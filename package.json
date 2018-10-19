@@ -4,7 +4,8 @@
   "description": "Basic jest test case project",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watchAll"
   },
   "author": "rajkumar patoliya",
   "license": "ISC",
