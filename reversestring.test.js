@@ -1,9 +1,11 @@
-const reverseString = require('./reversestring');
+/*jshint esversion: 6 */
 
-test('reverseString to be define', () => {
-    expect(reverseString).toBeDefined();
+const reverseString = require("./reversestring");
+
+test("reverseString to be define", () => {
+  expect(reverseString).toBeDefined();
 });
 
-test('String must reverse', () => {
-    expect(reverseString('hello')).toEqual('olleh');
+test("String must reverse", () => {
+  expect(reverseString("hello")).toEqual("olleh");
 });
